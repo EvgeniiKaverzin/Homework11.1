@@ -12,6 +12,7 @@ public class Main {
         } else {
             System.out.println(year + " невисокосный год");
         }
+
         //Задание 2.
         System.out.println("Задание 2.");
         int clientOs = LocalDate.now().getYear();
@@ -33,22 +34,8 @@ public class Main {
             default:
                 System.out.println("Hе удалось определить операционную систему");
         }
-        private static void informTime ( int deliveryDistance){
-            //Задание 3.
-            System.out.println("Задание 3.");
-            int deliveryDistance = 15;
-            informTime(deliveryDistance);
-
-            int time = 1;
-            if (deliveryDistance > 20) {
-                time++;
-            }
-            if (deliveryDistance > 60) {
-                time++;
-            }
-            System.out.println("Потребуется дней: " + time);
-        }
     }
+
 }
 
 
